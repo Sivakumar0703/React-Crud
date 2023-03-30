@@ -1,0 +1,153 @@
+*{
+  margin : 0 ;
+  padding : 0 ;
+  box-sizing: border-box;
+
+}
+
+.header{
+  height:70px;
+}
+
+.main{
+ /*  height:calc(100vh - 202px); */ 
+  width:100%;
+}
+
+
+.navbar{
+  background-color: purple;
+  height:50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+
+  
+}
+
+.btn{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 3px;
+  
+}
+
+.btn:hover{
+  color:purple;
+}
+
+.footer{
+  
+  
+  
+  background-color: #ed7014;
+}
+
+body{
+  background-color: white;
+}
+
+
+.dash-def{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.img-con{
+  background-color: black;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:calc(100vh - 202px);
+}
+
+
+
+.dashboard img{
+ 
+  min-height: 100%;
+  max-height: 100%;
+  min-width:100%;
+  max-width:100%;
+}
+
+.dashboard{
+ 
+  height:400px;
+  width:700px;
+  
+
+}
+/*
+.img-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.user-profile{
+  margin:10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card{
+  width:300px;
+  margin:30px;
+}
+
+.btn{
+  margin:5px;
+}
+
+.AddField{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+html{
+  height:100%;
+  box-sizing: border-box;
+}
+
+body{
+  position:relative;
+  margin:0;
+  min-height:100%; 
+  padding-bottom: 5rem; 
+  box-sizing: border-box;
+  background-color: black;
+}
+
+
+
+.footer{
+  position: absolute;
+  right:0;
+  left:0;
+  bottom:0;
+}
+
+@media (max-width:576px){
+
+.dashboard{
+  height:150px;
+  width:250px;
+}
+ 
+}
+
+@media (max-width:768px){
+
+  .dashboard{
+    height:250px;
+    width:350px;
+  }
+   
+  }
